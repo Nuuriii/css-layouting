@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      .container {
+        width: 800px;
+        margin: 0 auto;
+      }
+      .header {
+        background-color: gray;
+        min-height: 50px;
+        text-align: center;
+      }
+      .logo img {
+        width: 200px;
+      }
+      .menu ul {
+        padding: 0;
+        background-color: aquamarine;
+      }
+      .menu ul li {
+        display: inline-block;
+      }
+      .menu ul li a {
+        padding: 10px 20px;
+        text-decoration: none;
+      }
+      ul.submenu {
+        background-color: aquamarine;
+        border: 1px solid #ccc;
+        text-align: left;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        display: none;
+      }
+      .menu ul li:hover ul.submenu {
+        display: block;
+      }
+      ul.submenu li {
+        display: block;
+      }
+      ul.submenu li a {
+        display: block;
+        padding: 5px 10px;
+      }
+      .menu ul li {
+        display: inline-block;
+        position: relative;
+      }
+      .jumbotron {
+        width: 100%;
+        padding: 80px 40px;
+        box-sizing: border-box;
+        text-align: center;
+        color: white;
+        background-color: #aaa;
+        background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+      }
+      .content {
+        background-color: gray;
+        min-height: 500px;
+        overflow: auto;
+      }
+      .thumbnail {
+        background-color: aquamarine;
+        text-align: center;
+        padding: 10px;
+        width: 225px;
+        margin: 10px;
+        float: left;
+      }
+      .thumbnail img {
+        width: 100%;
+      }
+      .footer {
+        background-color: aquamarine;
+        min-height: 50px;
+        padding: 20px;
+        text-align: center;
+      }
+      body {
+        background-color: silver;
+      }
+      .a {
+        background-color: aquamarine;
+      }
+      .c {
+        background-color: aquamarine;
+      }
+      .b {
+        background-color: silver;
+        color: black;
+      }
+      body {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="https://smkmuh1-skh.sch.id/wp-content/uploads/2020/12/Logo-smkmutuharjo-web-544.png" width="300" alt="" />
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="/daftar.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li>
+              <a href="">About</a>
+              <ul class="submenu">
+                <li><a href="/keahlian.html">Keahlian</a></li>
+                <li><a href="/temandekat.html">Teman Dekat</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+              </ul>
+            </li>
+            <li><a href="//wa.me/+6281906302975">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <h2>Hallo Selamat Datang Di Website Saya</h2>
+        <p>Website ini adalah project layouting pertama saya yang berisi daftar teman kelas dan profile saya</p>
+        <p>Setiap orang memiliki kelebihan dan kelemahan masing-masing. Kita tidak bisa hebat dalam semua hal</p>
+        <p>Awali dengan "LEARN" dan selanjutnya akhiri dengan buang huruf "L"</p>
+        <p>Tapi tetap jangan lupa ya, Awali dengan Basmallah dan akhiri dengan Hamdalah</p>
+      </div>
+      <div class="content">
+        <center class="a">
+          <hr />
+          <img src="" alt="Fotonya nanti ya" />
+          <h1>Nurrohman Marduki</h1>
+          <h2>Front End Developer</h2>
+          <hr />
+        </center>
+        <div class="c">
+          <div>
+            <hr />
+            <h3>Pendidikan</h3>
+            <ul>
+              <li>SMK Muhammadiyah 1 Sukoharjo</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Skill</h3>
+            <ul>
+              <li>HTML : <progress value="65" max="100"></progress></li>
+              <li>CSS : <progress value="15" max="100"></progress></li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>copyright 2022 SMK Muhammadiyah 1 Sukoharjo</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
